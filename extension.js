@@ -92,3 +92,4 @@ function disable() {
     }
     dateMenu._clockDisplay.text = dateMenu._clock.clock;
 }
+

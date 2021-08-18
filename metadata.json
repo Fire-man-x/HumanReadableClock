@@ -1,6 +1,7 @@
 {
-    "shell-version": ["3.14"],
+    "shell-version": ["40"],
     "uuid": "FuzzyClock@theodoregoetz",
     "name": "Fuzzy Clock",
-    "description": "A human-readable clock for the gnome-shell panel"
+    "description": "A human-readable clock for the gnome-shell panel",
+    "url": "https://gitlab.com/theodore.goetz/FuzzyClock"
 }
