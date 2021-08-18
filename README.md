@@ -11,4 +11,8 @@ cd ~/.local/share/gnome-shell/extensions
 git clone https://gitlab.com/theodore.goetz/FuzzyClock.git FuzzyClock@theodoregoetz
 ```
 
-Enable or disable the fuzzy clock [via the browser](https://extensions.gnome.org/local/). You may need to change the `shell-version` field in `metadata.json`. The major version number you are running can be obtained by running `gnome-shell --version`.
+Enable or disable the fuzzy clock [via the browser](https://extensions.gnome.org/local/).
+
+If the extension does not show up in the list you may need to refresh the shell by hitting `Alt-F2` and running the command `r` in the dialog that pops up, followed by refreshing the list of installed extensions.
+
+You may need to change the `shell-version` field in `metadata.json`. The major version number you are running can be obtained by running `gnome-shell --version`.
