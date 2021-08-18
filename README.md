@@ -8,7 +8,7 @@ A human-readable clock for the gnome-shell panel that indicates the nearest five
 
 ```
 cd ~/.local/share/gnome-shell/extensions
-git clone https://gitlab.com/theodoregoetz/FuzzyClock.git FuzzyClock@theodoregoetz
+git clone https://gitlab.com/theodore.goetz/FuzzyClock.git FuzzyClock@theodoregoetz
 ```
 
 Enable or disable the fuzzy clock [via the browser](https://extensions.gnome.org/local/). You may need to change the `shell-version` field in `metadata.json`. The major version number you are running can be obtained by running `gnome-shell --version`.
