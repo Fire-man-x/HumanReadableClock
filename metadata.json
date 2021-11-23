@@ -1,5 +1,5 @@
 {
-    "shell-version": ["40"],
+    "shell-version": ["41"],
     "uuid": "FuzzyClock@theodoregoetz",
     "name": "Fuzzy Clock",
     "description": "A human-readable clock for the gnome-shell panel",
