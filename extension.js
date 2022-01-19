@@ -21,16 +21,15 @@ FuzzyClock.prototype = {
             "Five to %1", "%1 o'Clock"
         ];
         this.hour_names = [
-            "Twelve", "One", "Two", "Three", "Four", "Five", "Six", "Seven",
-            "Eight", "Nine", "Ten", "Eleven", "Twelve"
+            "Twelve", "One", "Two", "Three", "Four", "Five", "Six",
+            "Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"
         ];
         this.month_fmt = [
-            "Beginning of %0", "Early %0", "Middle of %0", "Late %0",
-            "End of %0"
+            "Beginning of %0", "Early %0", "Middle of %0", "Late %0", "End of %0"
         ];
         this.month_names = [
-            "January", "February", "March", "April", "May", "June", "July",
-            "August", "September", "October", "November", "December"
+            "January", "February", "March", "April", "May", "June",
+            "July", "August", "September", "October", "November", "December"
         ];
     },
 
@@ -67,14 +66,14 @@ function init() {
     if (!dateMenu) {
         return;
     }
-    settings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
-    fuzzyClock = new FuzzyClock();
 }
 
 function enable() {
     if (!dateMenu) {
         return;
     }
+    settings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
+    fuzzyClock = new FuzzyClock();
     if (updateClockId !== 0) {
         dateMenu._clock.disconnect(updateClockId);
     }
@@ -91,5 +90,8 @@ function disable() {
         updateClockId = 0;
     }
     dateMenu._clockDisplay.text = dateMenu._clock.clock;
+    delete fuzzyClock;
+    fuzzyClock = null;
+    delete settings;
+    settings = null;
 }
-
