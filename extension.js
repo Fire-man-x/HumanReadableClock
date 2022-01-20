@@ -61,14 +61,10 @@ function updateClockAndDate() {
     dateMenu._clockDisplay.text = clockStr;
 }
 
-function init() {
-    dateMenu = Main.panel.statusArea['dateMenu'];
-    if (!dateMenu) {
-        return;
-    }
-}
+function init() {}
 
 function enable() {
+    dateMenu = Main.panel.statusArea['dateMenu'];
     if (!dateMenu) {
         return;
     }
@@ -94,4 +90,5 @@ function disable() {
     fuzzyClock = null;
     delete settings;
     settings = null;
+    dateMenu = null;
 }
