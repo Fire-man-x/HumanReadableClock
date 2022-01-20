@@ -1,6 +1,5 @@
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
-const Lang = imports.lang;
 const Main = imports.ui.main;
 
 let dateMenu = null;
@@ -73,7 +72,7 @@ function enable() {
     if (updateClockId !== 0) {
         dateMenu._clock.disconnect(updateClockId);
     }
-    updateClockId = dateMenu._clock.connect('notify::clock', Lang.bind(dateMenu, updateClockAndDate));
+    updateClockId = dateMenu._clock.connect('notify::clock', updateClockAndDate.bind(dateMenu));
     updateClockAndDate();
 }
 
