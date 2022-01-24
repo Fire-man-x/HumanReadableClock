@@ -4,5 +4,5 @@
     "name": "Fuzzy Clock",
     "description": "A human-readable clock for the gnome-shell panel",
     "url": "https://gitlab.com/johngoetz/FuzzyClock",
-    "version": 2
+    "version": 3
 }

@@ -2,6 +2,9 @@ const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Main = imports.ui.main;
 
+const ExtensionUtils = imports.misc.extensionUtils;
+const Me = ExtensionUtils.getCurrentExtension();
+
 let dateMenu = null;
 let settings = null;
 let fuzzyClock = null;
@@ -60,7 +63,10 @@ function updateClockAndDate() {
     dateMenu._clockDisplay.text = clockStr;
 }
 
-function init() {}
+function init() {
+    ExtensionUtils.initTranslations(Me.metadata.uuid);
+    return new Extension();
+}
 
 function enable() {
     dateMenu = Main.panel.statusArea['dateMenu'];

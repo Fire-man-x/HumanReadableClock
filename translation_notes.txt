@@ -1,0 +1,88 @@
+# Engligh
+
+midnight
+five past midnight
+ten past midnight
+quarter past midnight
+twenty past midnight
+twenty-five past midnight
+half past midnight
+twenty-five to one
+twenty to one
+quarter to one
+ten to one
+five to one
+one
+five past one
+ten past one
+quarter past one
+twenty past one
+twenty-five past one
+half past one
+twenty-five to two
+twenty to two
+quarter to two
+ten to two
+five to two
+two
+three
+four
+five
+six
+seven
+eight
+nine
+ten
+eleven
+noon
+
+
+# French
+
+
+minuit
+minuit cinq
+minuit dix
+minuit et quart
+minuit vignt
+minuit vignt-cinq
+minuit et demie
+vingt-cinq à une heure
+vingt à une heure
+une heure moins le quart
+dix à une heure
+cinq à une heure
+une heure
+une heure cinq
+une heure dix
+une heure et quart
+une heure vignt
+une heure vignt-cinq
+une heure et demie
+vignt-cinq à duex heures
+vignt à duex heures
+duex heures moins le quart
+dix à duex heures
+cinq à duex heures
+deux heures
+deux heures cinq
+deux heures dix
+deux heures et quart
+deux heures vignt
+deux heures vignt-cinq
+deux heures et demie
+vignt-cinq à trois heures
+vignt à trois heures
+trois heures moins le quart
+dix à trois heures
+cinq à trois heures
+trois heures
+quatre heures
+cinq heures
+six heures
+sept heures
+huit heures
+neuf heures
+dix heures
+onze heures
+midi
