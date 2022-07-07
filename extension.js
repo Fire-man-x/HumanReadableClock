@@ -25,28 +25,62 @@ function FuzzyClock() {
 
 FuzzyClock.prototype = {
 	init: function() {
-		this.hour_fmt = [
-			"%0 o'Clock", "Five past %0", "Ten past %0", "Quarter past %0",
-			"Twenty past %0", "Twenty Five past %0", "Half past %0",
-			"Twenty Five to %1", "Twenty to %1", "Quarter to %1", "Ten to %1",
-			"Five to %1", "%1 o'Clock"
+		this.hour_format = [
+			_("%0 o'clock"),
+			_("Five past %0"),
+			_("Ten past %0"),
+			_("Quarter past %0"),
+			_("Twenty past %0"),
+			_("Twenty five past %0"),
+			_("Half past %0"),
+			_("Twenty five to %1"),
+			_("Twenty to %1"),
+			_("Quarter to %1"),
+			_("Ten to %1"),
+			_("Five to %1"),
+			_("%1 o'clock")
 		];
 		this.hour_names = [
-			"Twelve", "One", "Two", "Three", "Four", "Five", "Six",
-			"Seven", "Eight", "Nine", "Ten", "Eleven", "Twelve"
+			_("Twelve"),
+			_("One"),
+			_("Two"),
+			_("Three"),
+			_("Four"),
+			_("Five"),
+			_("Six"),
+			_("Seven"),
+			_("Eight"),
+			_("Nine"),
+			_("Ten"),
+			_("Eleven"),
+			_("Twelve")
 		];
-		this.month_fmt = [
-			"Beginning of %0", "Early %0", "Middle of %0", "Late %0", "End of %0"
+		this.month_format = [
+			_("Beginning of %0"),
+			_("Early %0"),
+			_("Middle of %0"),
+			_("Late %0"),
+			_("End of %0")
 		];
 		this.month_names = [
-			"January", "February", "March", "April", "May", "June",
-			"July", "August", "September", "October", "November", "December"
+			_("January"),
+			_("February"),
+			_("March"),
+			_("April"),
+			_("May"),
+			_("June"),
+			_("July"),
+			_("August"),
+			_("September"),
+			_("October"),
+			_("November"),
+			_("December")
 		];
 	},
 
 	time: function(now) {
 		let hours = now.get_hour();
-		return this.hour_fmt[Math.round(now.get_minute() / 5)]
+		return this.hour_format[Math.round(now.get_minute() / 5)]
 			.replace("%0", this.hour_names[hours >= 12 ? hours - 12 : hours])
 			.replace("%1", this.hour_names[hours + 1 >= 12 ? hours + 1 - 12 : hours + 1]);
 	},
@@ -55,7 +89,7 @@ FuzzyClock.prototype = {
 		let month = now.get_month();
 		let day = now.get_day_of_month();
 		let days = GLib.Date.get_days_in_month(month, now.get_year());
-		return this.month_fmt[Math.round(4 * (day / days))]
+		return this.month_format[Math.round(4 * (day / days))]
 			.replace("%0", this.month_names[month - 1]);
 	}
 };

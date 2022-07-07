@@ -19,7 +19,7 @@ ij_javascript_method_parameters_right_paren_on_new_line = true
 
 [{*.bash,*.sh,*.zsh}]
 indent_size = 2
-indent_style = space
+indent_style = tab
 tab_width = 2
 
 

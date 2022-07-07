@@ -1,0 +1,184 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-07 22:41+0200\n"
+"PO-Revision-Date: 2022-07-07 22:23+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+"X-Poedit-Basepath: .\n"
+
+#: extension.js:45
+#, javascript-format
+msgid "%0 o'clock"
+msgstr ""
+
+#: extension.js:46
+msgid "Five past %0"
+msgstr ""
+
+#: extension.js:47
+msgid "Ten past %0"
+msgstr ""
+
+#: extension.js:48
+msgid "Quarter past %0"
+msgstr ""
+
+#: extension.js:49
+msgid "Twenty past %0"
+msgstr ""
+
+#: extension.js:50
+msgid "Twenty five past %0"
+msgstr ""
+
+#: extension.js:51
+msgid "Half past %0"
+msgstr ""
+
+#: extension.js:52
+msgid "Twenty five to %1"
+msgstr ""
+
+#: extension.js:53
+msgid "Twenty to %1"
+msgstr ""
+
+#: extension.js:54
+msgid "Quarter to %1"
+msgstr ""
+
+#: extension.js:55
+msgid "Ten to %1"
+msgstr ""
+
+#: extension.js:56
+msgid "Five to %1"
+msgstr ""
+
+#: extension.js:57
+msgid "%1 o'clock"
+msgstr ""
+
+#: extension.js:60 extension.js:72
+msgid "Twelve"
+msgstr ""
+
+#: extension.js:61
+msgid "One"
+msgstr ""
+
+#: extension.js:62
+msgid "Two"
+msgstr ""
+
+#: extension.js:63
+msgid "Three"
+msgstr ""
+
+#: extension.js:64
+msgid "Four"
+msgstr ""
+
+#: extension.js:65
+msgid "Five"
+msgstr ""
+
+#: extension.js:66
+msgid "Six"
+msgstr ""
+
+#: extension.js:67
+msgid "Seven"
+msgstr ""
+
+#: extension.js:68
+msgid "Eight"
+msgstr ""
+
+#: extension.js:69
+msgid "Nine"
+msgstr ""
+
+#: extension.js:70
+msgid "Ten"
+msgstr ""
+
+#: extension.js:71
+msgid "Eleven"
+msgstr ""
+
+#: extension.js:75
+msgid "Beginning of %0"
+msgstr ""
+
+#: extension.js:76
+msgid "Early %0"
+msgstr ""
+
+#: extension.js:77
+msgid "Middle of %0"
+msgstr ""
+
+#: extension.js:78
+msgid "Late %0"
+msgstr ""
+
+#: extension.js:79
+msgid "End of %0"
+msgstr ""
+
+#: extension.js:82
+msgid "January"
+msgstr ""
+
+#: extension.js:83
+msgid "February"
+msgstr ""
+
+#: extension.js:84
+msgid "March"
+msgstr ""
+
+#: extension.js:85
+msgid "April"
+msgstr ""
+
+#: extension.js:86
+msgid "May"
+msgstr ""
+
+#: extension.js:87
+msgid "June"
+msgstr ""
+
+#: extension.js:88
+msgid "July"
+msgstr ""
+
+#: extension.js:89
+msgid "August"
+msgstr ""
+
+#: extension.js:90
+msgid "September"
+msgstr ""
+
+#: extension.js:91
+msgid "October"
+msgstr ""
+
+#: extension.js:92
+msgid "November"
+msgstr ""
+
+#: extension.js:93
+msgid "December"
+msgstr ""
