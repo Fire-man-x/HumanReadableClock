@@ -1,9 +1,18 @@
 const Gio = imports.gi.Gio;
 const GLib = imports.gi.GLib;
 const Main = imports.ui.main;
-
+const Gettext = imports.gettext;
 const ExtensionUtils = imports.misc.extensionUtils;
 const Me = ExtensionUtils.getCurrentExtension();
+
+// This creates an object with functions for marking strings as translatable.
+// You must pass the same domain as `ExtensionUtils.initTranslations()`.
+const Domain = Gettext.domain(Me.metadata.uuid);
+
+// These are the two most commonly used Gettext functions. The `gettext()`
+// function is often aliased as `_()`
+const _ = Domain.gettext;
+const ngettext = Domain.ngettext;
 
 let dateMenu = null;
 let settings = null;
@@ -64,8 +73,8 @@ function updateClockAndDate() {
 }
 
 function init() {
-    ExtensionUtils.initTranslations(Me.metadata.uuid);
-    return new Extension();
+	//init translations
+	ExtensionUtils.initTranslations(Me.metadata.uuid);
 }
 
 function enable() {
