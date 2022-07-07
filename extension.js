@@ -7,7 +7,7 @@ const Me = ExtensionUtils.getCurrentExtension();
 
 // This creates an object with functions for marking strings as translatable.
 // You must pass the same domain as `ExtensionUtils.initTranslations()`.
-const Domain = Gettext.domain(Me.metadata.uuid);
+const Domain = Gettext.domain('messages');
 
 // These are the two most commonly used Gettext functions. The `gettext()`
 // function is often aliased as `_()`
@@ -108,7 +108,7 @@ function updateClockAndDate() {
 
 function init() {
 	//init translations
-	ExtensionUtils.initTranslations(Me.metadata.uuid);
+	ExtensionUtils.initTranslations('messages');
 }
 
 function enable() {
