@@ -36,7 +36,7 @@ FuzzyClock.prototype = {
 		let hours = now.get_hour();
 		return this.hour_fmt[Math.round(now.get_minute() / 5)]
 			.replace("%0", this.hour_names[hours >= 12 ? hours - 12 : hours])
-			.replace("%1", this.hour_names[hours +1 >= 12 ? hours +1 -12 : hours +1]) ;
+			.replace("%1", this.hour_names[hours + 1 >= 12 ? hours + 1 - 12 : hours + 1]);
 	},
 
 	date: function(now) {
@@ -67,7 +67,7 @@ function enable() {
 	if (!dateMenu) {
 		return;
 	}
-	settings = new Gio.Settings({ schema: 'org.gnome.desktop.interface' });
+	settings = new Gio.Settings({schema: 'org.gnome.desktop.interface'});
 	fuzzyClock = new FuzzyClock();
 	if (updateClockId !== 0) {
 		dateMenu._clock.disconnect(updateClockId);
