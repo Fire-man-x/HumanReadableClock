@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-07 22:41+0200\n"
-"PO-Revision-Date: 2022-07-07 22:54+0200\n"
+"POT-Creation-Date: 2022-07-14 21:41+0200\n"
+"PO-Revision-Date: 2022-07-14 21:46+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: cs\n"
@@ -18,174 +18,451 @@ msgstr ""
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n>=2 && n<=4 ? 1 : 2);\n"
 "X-Generator: Poedit 3.1\n"
 
-#: extension.js:45
-#, javascript-format
-msgid "%0 o'clock"
-msgstr "%0 hodin"
-
-#: extension.js:46
-msgid "Five past %0"
-msgstr "Pět minut po %0"
-
-#: extension.js:47
-msgid "Ten past %0"
-msgstr "Deset minut po %0"
-
-#: extension.js:48
-msgid "Quarter past %0"
-msgstr "Čtvrt hodiny po %0"
-
 #: extension.js:49
-msgid "Twenty past %0"
-msgstr "Dvacet minut po %0"
-
-#: extension.js:50
-msgid "Twenty five past %0"
-msgstr "Dvacet pět minut po %0"
-
-#: extension.js:51
-msgid "Half past %0"
-msgstr "Půl hodiny po %0"
-
-#: extension.js:52
-msgid "Twenty five to %1"
-msgstr "Dvacet pět minut do %0"
-
-#: extension.js:53
-msgid "Twenty to %1"
-msgstr "Dvacet minut do %0"
-
-#: extension.js:54
-msgid "Quarter to %1"
-msgstr "Třičtvrtě na %1"
-
-#: extension.js:55
-msgid "Ten to %1"
-msgstr "Za deset minut %1"
-
-#: extension.js:56
-msgid "Five to %1"
-msgstr "Za pět minut %1"
-
-#: extension.js:57
-msgid "%1 o'clock"
-msgstr "%1 hodina"
-
-#: extension.js:60 extension.js:72
-msgid "Twelve"
-msgstr "Dvanáct"
-
-#: extension.js:61
-msgid "One"
-msgstr "Jedna"
-
-#: extension.js:62
-msgid "Two"
-msgstr "Dvě"
-
-#: extension.js:63
-msgid "Three"
-msgstr "Tři"
-
-#: extension.js:64
-msgid "Four"
-msgstr "Čtyři"
-
-#: extension.js:65
-msgid "Five"
-msgstr "Pět"
-
-#: extension.js:66
-msgid "Six"
-msgstr "Šest"
-
-#: extension.js:67
-msgid "Seven"
-msgstr "Sedm"
-
-#: extension.js:68
-msgid "Eight"
-msgstr "Osm"
-
-#: extension.js:69
-msgid "Nine"
-msgstr "Devět"
-
-#: extension.js:70
-msgid "Ten"
-msgstr "Deset"
-
-#: extension.js:71
-msgid "Eleven"
-msgstr "Jedenáct"
-
-#: extension.js:75
 msgid "Beginning of %0"
 msgstr "Začátek %0"
 
-#: extension.js:76
+#: extension.js:50
 msgid "Early %0"
 msgstr "Po začátku %0"
 
-#: extension.js:77
+#: extension.js:51
 msgid "Middle of %0"
-msgstr "Prostředek %0"
+msgstr "Uprostřed %0"
 
-#: extension.js:78
+#: extension.js:52
 msgid "Late %0"
-msgstr "Pozdejší %0"
+msgstr "Ke konci %0"
 
-#: extension.js:79
+#: extension.js:53
 msgid "End of %0"
 msgstr "Konec %0"
 
-#: extension.js:82
+#: extension.js:56
 msgid "January"
-msgstr "Leden"
+msgstr "Ledna"
 
-#: extension.js:83
+#: extension.js:57
 msgid "February"
-msgstr "Únor"
+msgstr "Února"
 
-#: extension.js:84
+#: extension.js:58
 msgid "March"
-msgstr "Březen"
+msgstr "Březena"
 
-#: extension.js:85
+#: extension.js:59
 msgid "April"
-msgstr "Duben"
+msgstr "Dubna"
 
-#: extension.js:86
+#: extension.js:60
 msgid "May"
-msgstr "Květen"
+msgstr "Května"
 
-#: extension.js:87
+#: extension.js:61
 msgid "June"
-msgstr "Červen"
+msgstr "Června"
 
-#: extension.js:88
+#: extension.js:62
 msgid "July"
-msgstr "Červenec"
+msgstr "Července"
 
-#: extension.js:89
+#: extension.js:63
 msgid "August"
-msgstr "Srpen"
+msgstr "Srpna"
 
-#: extension.js:90
+#: extension.js:64
 msgid "September"
 msgstr "Září"
 
-#: extension.js:91
+#: extension.js:65
 msgid "October"
-msgstr "Říjen"
+msgstr "Října"
 
-#: extension.js:92
+#: extension.js:66
 msgid "November"
-msgstr "Listopad"
+msgstr "Listopadu"
 
-#: extension.js:93
+#: extension.js:67
 msgid "December"
-msgstr "Prosinec"
+msgstr "Prosince"
+
+#: extension.js:78
+msgid "X:00"
+msgid_plural "X:00"
+msgstr[0] "%is hodina"
+msgstr[1] "%is hodiny"
+msgstr[2] "%is hodin"
+
+#: extension.js:79
+msgid "X:05"
+msgstr "Pět minut po %past"
+
+#: extension.js:80
+msgid "X:10"
+msgstr "Deset minut po %past"
+
+#: extension.js:81
+msgid "X:15"
+msgstr "Čtvrt na %to"
+
+#: extension.js:82
+msgid "X:20"
+msgstr "Čtvrt na %to a pět minut"
+
+#: extension.js:83
+msgid "X:25"
+msgstr "Za pět minut půl %to"
+
+#: extension.js:84
+msgid "X:30"
+msgstr "Půl %to"
+
+#: extension.js:85
+msgid "X:35"
+msgstr "Půl %to a pět minut"
+
+#: extension.js:86
+msgid "X:40"
+msgstr "Za pět minut třičtvrtě na %to"
+
+#: extension.js:87
+msgid "X:45"
+msgstr "Třičtvrtě na %to"
+
+#: extension.js:88
+msgid "X:50"
+msgstr "Třičtvrtě na %to a pět minut"
+
+#: extension.js:89
+msgid "X:55"
+msgstr "Za pět minut  %to"
+
+#: extension.js:90
+msgid "X:60"
+msgid_plural "X:60"
+msgstr[0] "%will hodina"
+msgstr[1] "%will hodiny"
+msgstr[2] "%will hodin"
+
+#: extension.js:104 extension.js:105 extension.js:107 extension.js:103
+msgctxt "Is"
+msgid "Zero"
+msgstr "Půlnoc"
+
+#: extension.js:104 extension.js:105 extension.js:107
+msgctxt "Past"
+msgid "Zero"
+msgstr "Půlnoci"
+
+#: extension.js:104 extension.js:105 extension.js:107
+msgctxt "To"
+msgid "Zero"
+msgstr "Dvanáct"
+
+#: extension.js:104 extension.js:105 extension.js:107 extension.js:106
+#, fuzzy
+msgctxt "Will be"
+msgid "Zero"
+msgstr "Půlnoc"
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:107
+msgctxt "Is"
+msgid "One"
+msgstr "Jedna"
+
+#: extension.js:105 extension.js:106 extension.js:108
+msgctxt "Past"
+msgid "One"
+msgstr "Jedné"
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:109
+msgctxt "To"
+msgid "One"
+msgstr "Jednu"
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:110
+#, fuzzy
+msgctxt "Will be"
+msgid "One"
+msgstr "Jedna"
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:111
+msgctxt "Is"
+msgid "Two"
+msgstr "Dvě"
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:112
+msgctxt "Past"
+msgid "Two"
+msgstr "Druhé"
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:113
+msgctxt "To"
+msgid "Two"
+msgstr "Dvě"
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:114
+#, fuzzy
+msgctxt "Will be"
+msgid "Two"
+msgstr "Dvě"
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:115
+msgctxt "Is"
+msgid "Three"
+msgstr "Tři"
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:116
+msgctxt "Past"
+msgid "Three"
+msgstr "Třetí"
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:117
+msgctxt "To"
+msgid "Three"
+msgstr "Tři"
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:118
+#, fuzzy
+msgctxt "Will be"
+msgid "Three"
+msgstr "Tři"
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:119
+msgctxt "Is"
+msgid "Four"
+msgstr "Čtyři"
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:120
+msgctxt "Past"
+msgid "Four"
+msgstr "Čtvrté"
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:121
+msgctxt "To"
+msgid "Four"
+msgstr "Čtyři"
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:122
+#, fuzzy
+msgctxt "Will be"
+msgid "Four"
+msgstr "Čtyři"
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:123
+msgctxt "Is"
+msgid "Five"
+msgstr "Pět"
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:124
+msgctxt "Past"
+msgid "Five"
+msgstr "Páté"
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:125
+msgctxt "To"
+msgid "Five"
+msgstr "Pět"
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:126
+#, fuzzy
+msgctxt "Will be"
+msgid "Five"
+msgstr "Pět"
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:127
+msgctxt "Is"
+msgid "Six"
+msgstr "Šest"
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:128
+msgctxt "Past"
+msgid "Six"
+msgstr "Šesté"
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:129
+msgctxt "To"
+msgid "Six"
+msgstr "Šest"
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:130
+#, fuzzy
+msgctxt "Will be"
+msgid "Six"
+msgstr "Šest"
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:131
+msgctxt "Is"
+msgid "Seven"
+msgstr "Sedm"
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:132
+msgctxt "Past"
+msgid "Seven"
+msgstr "Sedmé"
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:133
+msgctxt "To"
+msgid "Seven"
+msgstr "Sedm"
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:134
+#, fuzzy
+msgctxt "Will be"
+msgid "Seven"
+msgstr "Sedm"
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:135
+msgctxt "Is"
+msgid "Eight"
+msgstr "Osm"
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:136
+msgctxt "Past"
+msgid "Eight"
+msgstr "Osmé"
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:137
+msgctxt "To"
+msgid "Eight"
+msgstr "Osm"
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:138
+#, fuzzy
+msgctxt "Will be"
+msgid "Eight"
+msgstr "Osm"
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:139
+msgctxt "Is"
+msgid "Nine"
+msgstr "Devět"
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:140
+msgctxt "Past"
+msgid "Nine"
+msgstr "Deváté"
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:141
+msgctxt "To"
+msgid "Nine"
+msgstr "Devět"
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:142
+#, fuzzy
+msgctxt "Will be"
+msgid "Nine"
+msgstr "Devět"
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:143
+msgctxt "Is"
+msgid "Ten"
+msgstr "Deset"
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:144
+msgctxt "Past"
+msgid "Ten"
+msgstr "Desáté"
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:145
+msgctxt "To"
+msgid "Ten"
+msgstr "Deset"
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:146
+#, fuzzy
+msgctxt "Will be"
+msgid "Ten"
+msgstr "Deset"
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:147
+msgctxt "Is"
+msgid "Eleven"
+msgstr "Jedenáct"
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:148
+msgctxt "Past"
+msgid "Eleven"
+msgstr "Jedenácté"
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:149
+msgctxt "To"
+msgid "Eleven"
+msgstr "Jedenáct"
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:150
+#, fuzzy
+msgctxt "Will be"
+msgid "Eleven"
+msgstr "Jedenáct"
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:151
+msgctxt "Is"
+msgid "Twelve"
+msgstr "Dvanáct"
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:152
+msgctxt "Past"
+msgid "Twelve"
+msgstr "Dvanácté"
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:153
+msgctxt "To"
+msgid "Twelve"
+msgstr "Dvanáct"
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:154
+#, fuzzy
+msgctxt "Will be"
+msgid "Twelve"
+msgstr "Dvanáct"
+
+#, javascript-format
+#~ msgid "%past o'clock"
+#~ msgid_plural "%past o'clock"
+#~ msgstr[0] "%past hodina"
+#~ msgstr[1] "%past hodiny"
+#~ msgstr[2] "%past hodin"
+
+#~ msgid "Five past %past"
+#~ msgstr "Pět minut po %past"
+
+#~ msgid "Ten past %past"
+#~ msgstr "Deset minut po %past"
+
+#~ msgid "Quarter past %past"
+#~ msgstr "Čtvrt hodiny po %past"
+
+#~ msgid "Twenty past %past"
+#~ msgstr "Dvacet minut po %past"
+
+#~ msgid "Twenty five past %past"
+#~ msgstr "Dvacet pět minut po %past"
+
+#~ msgid "Half past %past"
+#~ msgstr "Půl hodiny po %past"
+
+#~ msgid "Twenty five to %to"
+#~ msgstr "Půl %to a pět minut"
+
+#~ msgid "Twenty to %to"
+#~ msgstr "Půl %to a deset minut"
+
+#~ msgid "Quarter to %to"
+#~ msgstr "Třičtvrtě na %to"
+
+#~ msgid "Ten to %to"
+#~ msgstr "Za deset minut %to"
+
+#~ msgid "Five to %to"
+#~ msgstr "Za pět minut %to"
+
+#~ msgid "%to o'clock"
+#~ msgstr "%to hodina"
+
+#, fuzzy
+#~ msgid "To"
+#~ msgstr "Dvě"
 
 #~ msgid "more"
 #~ msgstr "moe"

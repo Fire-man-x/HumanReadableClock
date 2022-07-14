@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-07-07 22:41+0200\n"
-"PO-Revision-Date: 2022-07-07 22:23+0200\n"
+"POT-Creation-Date: 2022-07-14 21:41+0200\n"
+"PO-Revision-Date: 2022-07-12 22:26+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en\n"
@@ -14,171 +14,387 @@ msgstr ""
 "X-Generator: Poedit 3.1\n"
 "X-Poedit-Basepath: .\n"
 
-#: extension.js:45
-#, javascript-format
-msgid "%0 o'clock"
-msgstr ""
-
-#: extension.js:46
-msgid "Five past %0"
-msgstr ""
-
-#: extension.js:47
-msgid "Ten past %0"
-msgstr ""
-
-#: extension.js:48
-msgid "Quarter past %0"
-msgstr ""
-
 #: extension.js:49
-msgid "Twenty past %0"
-msgstr ""
-
-#: extension.js:50
-msgid "Twenty five past %0"
-msgstr ""
-
-#: extension.js:51
-msgid "Half past %0"
-msgstr ""
-
-#: extension.js:52
-msgid "Twenty five to %1"
-msgstr ""
-
-#: extension.js:53
-msgid "Twenty to %1"
-msgstr ""
-
-#: extension.js:54
-msgid "Quarter to %1"
-msgstr ""
-
-#: extension.js:55
-msgid "Ten to %1"
-msgstr ""
-
-#: extension.js:56
-msgid "Five to %1"
-msgstr ""
-
-#: extension.js:57
-msgid "%1 o'clock"
-msgstr ""
-
-#: extension.js:60 extension.js:72
-msgid "Twelve"
-msgstr ""
-
-#: extension.js:61
-msgid "One"
-msgstr ""
-
-#: extension.js:62
-msgid "Two"
-msgstr ""
-
-#: extension.js:63
-msgid "Three"
-msgstr ""
-
-#: extension.js:64
-msgid "Four"
-msgstr ""
-
-#: extension.js:65
-msgid "Five"
-msgstr ""
-
-#: extension.js:66
-msgid "Six"
-msgstr ""
-
-#: extension.js:67
-msgid "Seven"
-msgstr ""
-
-#: extension.js:68
-msgid "Eight"
-msgstr ""
-
-#: extension.js:69
-msgid "Nine"
-msgstr ""
-
-#: extension.js:70
-msgid "Ten"
-msgstr ""
-
-#: extension.js:71
-msgid "Eleven"
-msgstr ""
-
-#: extension.js:75
 msgid "Beginning of %0"
 msgstr ""
 
-#: extension.js:76
+#: extension.js:50
 msgid "Early %0"
 msgstr ""
 
-#: extension.js:77
+#: extension.js:51
 msgid "Middle of %0"
 msgstr ""
 
-#: extension.js:78
+#: extension.js:52
 msgid "Late %0"
 msgstr ""
 
-#: extension.js:79
+#: extension.js:53
 msgid "End of %0"
 msgstr ""
 
-#: extension.js:82
+#: extension.js:56
 msgid "January"
 msgstr ""
 
-#: extension.js:83
+#: extension.js:57
 msgid "February"
 msgstr ""
 
-#: extension.js:84
+#: extension.js:58
 msgid "March"
 msgstr ""
 
-#: extension.js:85
+#: extension.js:59
 msgid "April"
 msgstr ""
 
-#: extension.js:86
+#: extension.js:60
 msgid "May"
 msgstr ""
 
-#: extension.js:87
+#: extension.js:61
 msgid "June"
 msgstr ""
 
-#: extension.js:88
+#: extension.js:62
 msgid "July"
 msgstr ""
 
-#: extension.js:89
+#: extension.js:63
 msgid "August"
 msgstr ""
 
-#: extension.js:90
+#: extension.js:64
 msgid "September"
 msgstr ""
 
-#: extension.js:91
+#: extension.js:65
 msgid "October"
 msgstr ""
 
-#: extension.js:92
+#: extension.js:66
 msgid "November"
 msgstr ""
 
-#: extension.js:93
+#: extension.js:67
 msgid "December"
+msgstr ""
+
+#: extension.js:78
+msgid "X:00"
+msgid_plural "X:00"
+msgstr[0] "%is o'clock"
+msgstr[1] "%is o'clock"
+
+#: extension.js:79
+msgid "X:05"
+msgstr "Five past %past"
+
+#: extension.js:80
+msgid "X:10"
+msgstr "Ten past %past"
+
+#: extension.js:81
+msgid "X:15"
+msgstr "Quarter past %past"
+
+#: extension.js:82
+msgid "X:20"
+msgstr "Twenty past %past"
+
+#: extension.js:83
+msgid "X:25"
+msgstr "Twenty five past %past"
+
+#: extension.js:84
+msgid "X:30"
+msgstr "Half past %past"
+
+#: extension.js:85
+msgid "X:35"
+msgstr "Twenty five to %to"
+
+#: extension.js:86
+msgid "X:40"
+msgstr "Twenty to %to"
+
+#: extension.js:87
+msgid "X:45"
+msgstr "Quarter to %to"
+
+#: extension.js:88
+msgid "X:50"
+msgstr "Ten to %to"
+
+#: extension.js:89
+msgid "X:55"
+msgstr "Five to %to"
+
+#: extension.js:90
+msgid "X:60"
+msgid_plural "X:60"
+msgstr[0] "%will o'clock"
+msgstr[1] "%will o'clock"
+
+#: extension.js:104 extension.js:105 extension.js:107 extension.js:103
+msgctxt "Is"
+msgid "Zero"
+msgstr "Twelve"
+
+#: extension.js:104 extension.js:105 extension.js:107
+msgctxt "Past"
+msgid "Zero"
+msgstr "Twelve"
+
+#: extension.js:104 extension.js:105 extension.js:107
+msgctxt "To"
+msgid "Zero"
+msgstr "Twelve"
+
+#: extension.js:104 extension.js:105 extension.js:107 extension.js:106
+#, fuzzy
+msgctxt "Will be"
+msgid "Zero"
+msgstr "Twelve"
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:107
+msgctxt "Is"
+msgid "One"
+msgstr ""
+
+#: extension.js:105 extension.js:106 extension.js:108
+msgctxt "Past"
+msgid "One"
+msgstr ""
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:109
+msgctxt "To"
+msgid "One"
+msgstr ""
+
+#: extension.js:105 extension.js:106 extension.js:108 extension.js:110
+msgctxt "Will be"
+msgid "One"
+msgstr ""
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:111
+msgctxt "Is"
+msgid "Two"
+msgstr ""
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:112
+msgctxt "Past"
+msgid "Two"
+msgstr ""
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:113
+msgctxt "To"
+msgid "Two"
+msgstr ""
+
+#: extension.js:106 extension.js:107 extension.js:109 extension.js:114
+msgctxt "Will be"
+msgid "Two"
+msgstr ""
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:115
+msgctxt "Is"
+msgid "Three"
+msgstr ""
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:116
+msgctxt "Past"
+msgid "Three"
+msgstr ""
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:117
+msgctxt "To"
+msgid "Three"
+msgstr ""
+
+#: extension.js:107 extension.js:108 extension.js:110 extension.js:118
+msgctxt "Will be"
+msgid "Three"
+msgstr ""
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:119
+msgctxt "Is"
+msgid "Four"
+msgstr ""
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:120
+msgctxt "Past"
+msgid "Four"
+msgstr ""
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:121
+msgctxt "To"
+msgid "Four"
+msgstr ""
+
+#: extension.js:108 extension.js:109 extension.js:111 extension.js:122
+msgctxt "Will be"
+msgid "Four"
+msgstr ""
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:123
+msgctxt "Is"
+msgid "Five"
+msgstr ""
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:124
+msgctxt "Past"
+msgid "Five"
+msgstr ""
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:125
+msgctxt "To"
+msgid "Five"
+msgstr ""
+
+#: extension.js:109 extension.js:110 extension.js:112 extension.js:126
+msgctxt "Will be"
+msgid "Five"
+msgstr ""
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:127
+msgctxt "Is"
+msgid "Six"
+msgstr ""
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:128
+msgctxt "Past"
+msgid "Six"
+msgstr ""
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:129
+msgctxt "To"
+msgid "Six"
+msgstr ""
+
+#: extension.js:110 extension.js:111 extension.js:113 extension.js:130
+msgctxt "Will be"
+msgid "Six"
+msgstr ""
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:131
+msgctxt "Is"
+msgid "Seven"
+msgstr ""
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:132
+msgctxt "Past"
+msgid "Seven"
+msgstr ""
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:133
+msgctxt "To"
+msgid "Seven"
+msgstr ""
+
+#: extension.js:111 extension.js:112 extension.js:114 extension.js:134
+msgctxt "Will be"
+msgid "Seven"
+msgstr ""
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:135
+msgctxt "Is"
+msgid "Eight"
+msgstr ""
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:136
+msgctxt "Past"
+msgid "Eight"
+msgstr ""
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:137
+msgctxt "To"
+msgid "Eight"
+msgstr ""
+
+#: extension.js:112 extension.js:113 extension.js:115 extension.js:138
+msgctxt "Will be"
+msgid "Eight"
+msgstr ""
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:139
+msgctxt "Is"
+msgid "Nine"
+msgstr ""
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:140
+msgctxt "Past"
+msgid "Nine"
+msgstr ""
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:141
+msgctxt "To"
+msgid "Nine"
+msgstr ""
+
+#: extension.js:113 extension.js:114 extension.js:116 extension.js:142
+msgctxt "Will be"
+msgid "Nine"
+msgstr ""
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:143
+msgctxt "Is"
+msgid "Ten"
+msgstr ""
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:144
+msgctxt "Past"
+msgid "Ten"
+msgstr ""
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:145
+msgctxt "To"
+msgid "Ten"
+msgstr ""
+
+#: extension.js:114 extension.js:115 extension.js:117 extension.js:146
+msgctxt "Will be"
+msgid "Ten"
+msgstr ""
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:147
+msgctxt "Is"
+msgid "Eleven"
+msgstr ""
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:148
+msgctxt "Past"
+msgid "Eleven"
+msgstr ""
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:149
+msgctxt "To"
+msgid "Eleven"
+msgstr ""
+
+#: extension.js:115 extension.js:116 extension.js:118 extension.js:150
+msgctxt "Will be"
+msgid "Eleven"
+msgstr ""
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:151
+msgctxt "Is"
+msgid "Twelve"
+msgstr ""
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:152
+msgctxt "Past"
+msgid "Twelve"
+msgstr ""
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:153
+msgctxt "To"
+msgid "Twelve"
+msgstr ""
+
+#: extension.js:116 extension.js:117 extension.js:119 extension.js:154
+msgctxt "Will be"
+msgid "Twelve"
 msgstr ""
